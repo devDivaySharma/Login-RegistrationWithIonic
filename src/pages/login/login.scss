@@ -1,0 +1,164 @@
+page-login {
+    .scroll-content {
+        // background-image: url(../assets/img/Main-BG.png);
+        //background-color: #673ab7;
+        background-position: center;
+        background-size: cover;
+    }
+    ion-app.md [margin], ion-app.md [margin] .scroll-content {
+        margin-top: 92px !important;
+    }
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: white;
+    }
+    .passwordIcon img {
+        width: 25px;
+        height: 27px;
+    }
+    button.passwordIcon {
+        position: relative;
+        background: none;
+        float: right;
+        top: -32px;
+        right: 12px;
+    }
+    .block {
+        background-color: color($colors, primary);
+        padding: 10px;
+        color: #fff;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        text-transform: uppercase;
+        display: block;
+        // left: 15%;
+        // right: 15%;
+        // position: absolute;
+    }
+   /* .frm-content.ng-pristine.ng-invalid.ng-touched, .frm-content.ng-invalid.ng-touched.ng-dirty, .frm-content.ng-untouched.ng-pristine.ng-invalid, .frm-content.ng-invalid.ng-dirty.ng-touched {
+        margin-top: 50px !important;
+    }*/
+    .frm-content {
+        background-color: color($colors, light);
+        border-radius: 5px;
+        margin-top: 0 !important;
+        // padding-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .logo {
+        margin: 15px auto;
+        display: block;
+    }
+    .icon-fb {
+        vertical-align: middle;
+    }
+    .list-ios>.item-block:first-child {
+        border-top: none;
+    }
+    .item-md,
+    .item-ios {
+        background-color: rgba(255, 255, 255, 0);
+        width: 95%;
+    }
+    .list-md .item-input:last-child,
+    .list-ios>.item-block:last-child,
+    .list-ios>.item-wrapper:last-child .item-block {
+        border-bottom: 1px solid #dedede;
+        margin-left: 16px;
+        padding-left: 0;
+        width: 90%;
+    }
+    .icon-ios {
+        color: #999;
+    }
+    ion-input {
+        color: #999;
+    }
+
+    ion-list.list {
+        margin-bottom: 0;
+    }
+    .forgot-link {
+        float: right;
+        font-size: 12px;
+        padding-right: 16px;
+        color: color($colors, primary);
+        text-decoration: none;
+        display: block;
+    }
+    .sing-up-link {
+        color: color($colors,primary);
+        font-size: 18px;
+        margin-top: 20px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+    .purchased-link {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 10px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+    fieldset {
+        height: 0;
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        border-top-width: 1px;
+        border-top-color: color($colors, light);
+        color: color($colors, primary);
+        margin-top: 10px;
+    }
+    fieldset legend{
+        min-width: 50px;
+    }
+    .gp-login {
+        color: #df4a32;
+    }
+    .fb-login {
+        color: #224ba1;
+        padding: 5px 8px !important;
+    }
+    .social-icons ion-icon {
+        font-size: 30px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        text-align: center;
+        border-width: 2px;
+        border-style: solid;
+        
+    }
+
+    .social-icons .facebook {
+        padding: 7px 10px;
+        color: #3B5998;
+    }
+
+    .social-icons .google {
+        padding: 7px 7px;
+        color: #DB4437;
+    }
+
+    .prepa {
+        position: absolute;
+        z-index: 99999;
+        top: 50px;
+        width: 100%;
+    }
+    .prepa h1 {
+        margin: 0 auto; 
+        text-align: center;
+        position: relative;
+        width: 250px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
+}

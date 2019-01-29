@@ -1,0 +1,198 @@
+page-signup {
+    .scroll-content{
+            // background-image: url(../assets/img/Main-BG.png);
+            //background-color: #673ab7;
+        background-position: center;
+        background-size: cover;
+    }
+    ion-app.md [margin], ion-app.md [margin] .scroll-content {
+        margin-top: 92px !important;
+    }
+    ion-alert.alert-md.sign-up .alert-wrapper {
+        max-height: 310px !important;
+    }
+    .block {
+            background-color: color($colors, primary);
+            padding: 10px;
+            color: #fff;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            text-transform: uppercase;
+            display: block;
+            // left: 15%;
+            // right: 15%;
+            // position: absolute;
+        }
+        .frm-content {
+            background-color: color($colors, light);
+            border-radius: 5px;
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+        .prepa {
+            position: absolute;
+            z-index: 99999;
+            top: 50px;
+            width: 100%;
+        }
+        .prepa h1 {
+            margin: 0 auto; 
+            text-align: center;
+            position: relative;
+            width: 250px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: 100;
+        }
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: white;
+        }
+        .frm-content ion-list{
+            margin-bottom: 10px !important;
+        }
+        /*.frm-content.ng-pristine.ng-invalid.ng-touched, .frm-content.ng-untouched.ng-pristine.ng-invalid, .frm-content.ng-invalid.ng-touched.ng-dirty, .frm-content.ng-untouched.ng-pristine.ng-invalid, .frm-content.ng-invalid.ng-dirty.ng-touched {
+            margin-top: 50px !important;
+        }*/
+        .label-md {
+            margin: 7px 8px 7px 0;
+        }
+        input:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+        outline: none;
+        }
+        .focus-outline :focus {
+            outline: none !important;
+        }
+        .text-input-md{
+            margin: 7px 8px 7px 0;    
+        }
+        .nme {
+            text-transform: capitalize;
+        }
+    .logo{
+        margin: 15px auto;
+        display: block;
+        padding: 5px 16px 5px;
+    }
+    .list-ios > .item-block:first-child{
+        border-top:none;
+    }
+    .item-md,.item-ios{
+        background-color:rgba(255, 255, 255, 0);
+        width: 95%;
+    }
+    .list-md .item-input:last-child,.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block{
+        border-bottom: 1px solid #dedede;
+        margin-left: 16px;
+        padding-left: 0;
+        width: 90%;
+    }
+    .icon-ios{
+        color: #999;
+    }
+    ion-input{
+        color: #999;
+    }
+    .login-link {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+    .icon-fb{
+        vertical-align: middle;
+    }
+     
+        fieldset {
+            height: 0;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            border-top-width: 1px;
+            border-top-color: color($colors, light);
+            color: color($colors, primary);
+            margin-top: 10px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        fieldset legend{
+            min-width: 50px;
+        }
+        .gp-login {
+            color: #df4a32;
+        }
+        .fb-login {
+            color: #224ba1;
+            padding: 5px 8px !important;
+        }
+        .social-icons ion-icon {
+            font-size: 30px;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            display: table;
+            text-align: center;
+            border-width: 2px;
+            border-style: solid;
+            padding: 5px;
+        }
+        .list-ios {
+            margin: -1px 0 12px 0;
+        }
+    
+        .social-icons .facebook {
+            padding: 7px 10px;
+            color: #3B5998;
+        }
+    
+        .social-icons .google {
+            padding: 7px 7px;
+            color: #DB4437;
+        }
+    }
+    
+    .sign-up .alert-wrapper .alert-head {
+        background-color: #22aaaa;
+        padding: 10px 24px 10px 24px;
+    }
+    .sign-up .alert-wrapper .alert-message {
+    
+        max-width: 100%;
+        padding: 10px 8px 0px 8px !important;
+        text-align: center;
+    }
+    .sign-up .alert-input-wrapper {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 12px !important;
+    }
+    .alert-button-group {
+        margin: 0 auto;
+    }
+    .sign-up .alert-title {
+        color: white;
+        text-decoration: none;
+    }
+    .sign-up .alert-input-group {
+        padding: 0 0px 0px 0px;
+    }
+    .sign-up .alert-wrapper {
+        max-width: 72% !important;
+    }
+    .sing-up-link {
+        color: color($colors,primary);
+        font-size: 18px;
+        margin-top: 20px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }

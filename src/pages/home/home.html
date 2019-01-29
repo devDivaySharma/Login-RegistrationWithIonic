@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+    <button ion-button float-right (tap)="logout()"><ion-icon name="log-out"></ion-icon></button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1 text-center>Hello {{user?.name}} <br> Welcome to Home Page</h1>
+  <ion-list>
+      <button ion-item><strong>Mobile : </strong> {{user?.mobile}}</button>
+      <button ion-item><strong>Email : </strong> {{user?.email}}</button>
+  </ion-list>
+</ion-content>
